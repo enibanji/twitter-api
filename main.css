@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+p,
+a,
+a:visited {
+  color: grey;
+}
+h2,
+p {
+  margin: 0px;
+}
+a {
+  font-weight: bolder;
+}
+.bold {
+  font-weight: bold;
+  color: black;
+}
+.container {
+  width: 40%;
+  margin: auto;
+  min-width: 350px;
+}
+.header {
+  padding: 10px 10%;
+}
+.profile-contents {
+  border-bottom: 1px solid lightgray;
+}
+.header-image {
+  height: 25vh;
+  min-height: 180px;
+  background: url("./assets/elonmusk-cover.jpeg") center/cover no-repeat;
+  z-index: -1;
+  position: relative;
+}
+.profile-picture {
+  width: 140px;
+  height: 140px;
+  min-width: 100px;
+  min-height: 100px;
+  position: absolute;
+  left: 2%;
+  top: 60%;
+  border-radius: 100%;
+  border: 5px solid white;
+  background: url("./assets/elonmusk.jpg") center/cover no-repeat;
+  z-index: 1;
+}
+.profile-data {
+  margin-top: 5px;
+  padding: 20px 20px;
+}
+.follow-btn {
+  padding-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+}
+#follow {
+  padding: 10px 30px;
+  background-color: rgb(29, 155, 240);
+  border-radius: 20px;
+  color: white;
+  font-weight: 500;
+  border: none;
+}
+.profile-data p {
+  margin-bottom: 10px;
+}
+.nav-btn {
+  display: flex;
+  justify-content: space-around;
+}
+.tweet-tag {
+  padding: 10px;
+  background: white;
+  text-decoration: none;
+}
+.tweet-tag:hover {
+  color: rgb(29, 155, 240);
+  border-bottom: 2px solid rgb(29, 155, 240);
+}
+
+.tweet-content h2,
+.tweet-content p {
+  font-size: 1rem;
+  display: inline-block;
+}
+#tweet {
+  display: block;
+  color: black;
+}
